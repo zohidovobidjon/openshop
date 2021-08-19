@@ -457,8 +457,8 @@ body {
 
 .main__callphone-title {
     font-family: var(--notosans-regular);
-    font-weight: 600;
-    font-size: 36px;
+    font-weight: 300;
+    font-size: 40px;
     line-height: 49px;
     color: var(--primary-color);
     margin-top: 70px;
@@ -466,7 +466,11 @@ body {
 
 .main__callphone-item {
     margin-top: 30px;
-    margin-left: 30px;
+    padding-left: 30px;
+}
+
+.main__callphone-item:hover {
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
 }
 
 .main__callphone-item:nth-of-type(1) {
@@ -474,18 +478,14 @@ body {
     margin-left: 0;
 }
 
-.main__callphone-img {
-    position: relative;
-}
-
 .main_item-link {
-    font-family: var(--notosans-medium);
-    font-weight: 500;
+    font-family: var(--notosans-regular);
     font-size: 16px;
     line-height: 22px;
     color: var(--primary-color);
     position: absolute;
-    margin: 226px 0 0 26px;
+    margin: 220px 0 0 26px;
+    display: block;
 }
 
 .main_item-link:hover {
@@ -493,12 +493,11 @@ body {
 }
 .main__callphone-description {
     font-family: var(--notosans-regular);
-    font-weight: 300;
     font-size: 14px;
     line-height: 19px;
     color: var(--primary-color);
     position: absolute;
-    margin: 253px 0 0 129px;
+    margin: 250px 0 0 129px;
 }
 
 .yellow {
@@ -535,7 +534,7 @@ body {
 }
 
 .comp-link {
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 .main__console-content {
@@ -554,7 +553,6 @@ body {
 
 .main__console-title {
     font-family: var(--notosans-semibold);
-    font-weight: 600;
     font-size: 48px;
     line-height: 65px;
     color: var(--primary-color);
@@ -588,7 +586,7 @@ body {
 }
 
 .air {
-    margin: 239px 0 0 106px;
+    margin: 239px 0 0 120px;
 }
 
 .smartw34 {
@@ -600,7 +598,7 @@ body {
 }
 
 .dollar {
-    margin: 266px 0 0 131px;
+    margin: 266px 0 0 145px;
 }
 
 footer {
@@ -707,4 +705,307 @@ footer {
     margin: 65px 0 0 54px;
 }
 
+.main__callphone_love::before {
+    content: '\f004';
+}
+
+.main__callphone_love {
+    line-height: 15px;
+    font-size: 0;
+    position: absolute;
+    margin: 17px 0 0 266px;
+    color: var(--primary-color);
+    transition: 0.5s;
+}
+
+.main__callphone_love:hover {
+    color: var(--primary-color);
+    font-size: 17px;
+}
+
+.main__callphone-buy {
+    font-family: var(--notosans-regular);
+    font-size: 0;
+    line-height: 19px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    padding-top: 5px;  
+    position: absolute; 
+    margin: 282px 0 0 100px;
+    transition: 0.5s;
+    color: var(--secondary-color);
+}
+
+.main__callphone-buy:hover{
+    font-size: 14px;
+    background: var(--primary-color); 
+    color: var(--secondary-color);
+}
+
+.main__callphone-apple {
+    font-family: var(--notosans-regular);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: var(--primary-color);
+}
+
+.learn {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.sam {
+    margin-left: 0;
+}
+
+.main__xbox {
+    position: relative;
+}
+
+.main__xbox-content {
+    position: absolute;
+    top: 0;
+}
+
+.main__xbox-title {
+    font-family: var(--notosans-regular);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    color: var(--primary-color);
+    margin: 10px 0 0 20px;
+}
+
+.main__xbox-description {
+    font-family: var(--notosans-regular);
+    font-size: 24px;
+    line-height: 33px;
+    color: var(--primary-color);
+    width: 454px;
+    margin: 10px 0 0 20px;
+}
+
+.main__xbox-link {
+    font-family: var(--notosans-regular);
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--secondary-color);
+    width: 190px;
+    height: 50px;
+    background: var(--primary-color);    
+    display: block;
+    text-align: center;
+    padding-top: 13px;
+    margin: 280px 0 0 20px;
+}
+
+.main__xbox-link:hover {
+    color: var(--secondary-color);
+}
+
+.main__xbox-line {
+    height: 195px;
+    background: #E3E3E3;
+    margin-top: -195px;
+}
+
+.main__next-link {
+    font-family: var(--notosans-regular);
+    font-size: 30px;
+    line-height: 41px;
+    color: #ABABAB;
+}
+
+.main__next-link:hover {
+    color: #ABABAB;
+}
+
+.main__next-link:nth-of-type(1) {
+    font-family: var(--notosans-regular);
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+    margin-left: 0;
+}
+
+.main__next-icon::before {
+    content: '\f324';
+}
+
+.main__next-icon {
+    color: #000000;
+    line-height: 18px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.main__next-icon:hover {
+    color: #000000;
+}
+
+.main__next-span {
+    width: 2px;
+    height: 35px;
+    background: var(--primary-color);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main__next-span:nth-of-type(2) {
+    background: #ABABAB;
+}
+
+.main__next-span:nth-of-type(3) {
+    background: #ABABAB;
+}
+
+.main__next-content {
+    margin-top: 50px;
+}
+
+.main__buy-title {
+    font-family: var(--notosans-regular);
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    
+}
+.main__buy-cost {
+    font-family: var(--notosans-regular);
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: 40px;    
+}
+
+.main__buy-product {
+    font-family: var(--black);
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.main__buy-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    display: block;
+    margin-top: 18px;
+}
+
+.main__buy-dot:nth-of-type(1) {
+    margin-top: 12px;
+}
+
+.main__buy-description {
+    font-family: var(--notosans-regular);
+    font-size: 14px;
+    line-height: 10px;
+    letter-spacing: 0.05em;
+    color: #000000;  
+    margin-left: 15px;
+}
+
+.main__buy-descriptions {
+    margin-top: 10px;
+}
+
+.mini {
+    margin-top: 30px;
+}
+
+.buy__left-imgmini {
+    margin-right: 30px;
+}
+
+
+.main__buy-cart {
+    width: 190px;
+    height: 50px;
+    background: var(--primary-color); 
+    margin-right: 30px;   
+}
+
+.main__buy-link {
+    width: 190px;
+    height: 50px;
+    background: var(--primary-color);
+    display: block;
+    padding: 10px 0 0 45px;
+    font-family: var(--notosans-regular);
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    color: var(--secondary-color);
+}
+
+.main__buy-link:hover {
+    color: var(--secondary-color);
+}
+
+.buy__link-icon {
+    margin: 16px 9px 0 55px;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.buy__link {
+    font-family: var(--notosans-regular);
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    color: var(--secondary-color);
+    margin-top: 10px;
+}
+
+.main__buy-links {
+    margin-top: 30px;
+}
+
+.buy__left {
+    margin-right: 30px;
+}
+
+.main__buy-bigphone {
+    width: 409px;
+    height: 410px;
+}
+
+.main__vr-title {
+    font-family: var(--notosans-regular);
+    font-size: 48px;
+    color: var(--primary-color);
+    font-weight: 600;
+    margin: 20px 0 0 770px;
+}
+
+.main__vr-description {
+    font-family: var(--notosans-regular);
+    font-size: 24px;
+    line-height: 33px;
+    color: #313131;
+    width: 454px;
+    margin: 39px 0 0 805px;
+}
+
+.main__vr {
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.learn-vr {
+    margin: 116px 0 0 937px;
+}
+
+.main__vr-group {
+    position: absolute;
+    top: 0;
+}
 /* HEADER END */

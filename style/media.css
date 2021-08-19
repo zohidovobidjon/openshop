@@ -61,6 +61,75 @@
         color: var(--primary-text-color);
     }
 
+    .callphone-link {
+        border: 1px solid #FFFFFF;
+    }
+
+    .main__callphone-img2 {
+        content: url('../images/iphone_11pro128_dark.png');
+    }
+    .main__callphone-img3 {
+        content: url('../images/iphone_12pro256_dark.png');
+    }
+    .main__callphone-img4 {
+        content: url('../images/iphone_11pro-256_dark.png');
+    }
+    .main__callphone-img5 {
+        content: url('../images/lenovo_dark.png');
+    }
+    .main__callphone-img6 {
+        content: url('../images/dream1_dark.png');
+    }
+    .main__callphone-img7 {
+        content: url('../images/macbook_dark.png');
+    }
+    .main__callphone-img8 {
+        content: url('../images/dream2_dark.png');
+    }
+    .main__callphone-img9 {
+        content: url('../images/smartwhite_dark.png');
+    }
+    .main__callphone-img10 {
+        content: url('../images/airpods2.1_dark.png');
+    }
+    .main__callphone-img11 {
+        content: url('../images/smartblack_dark.png');
+    }
+    .main__callphone-img12 {
+        content: url('../images/coffee_dark.png');
+    }
+
+    .main__console-img {
+        content: url('../images/ps5_dark.png');
+    }
+
+    .main_item-link {
+        color: var(--primary-text-color);
+    }
+
+    .main_item-link:hover {
+        color: var(--primary-text-color);
+    }
+
+    .main__callphone-description {
+        color: var(--primary-text-color);
+    }
+
+    .main__callphone-title {
+        color: var(--primary-text-color);
+    }
+
+    .main__console-logo::before {
+        content: url('../images/ps5logo_dark.png');
+    }
+
+    .main__console-link {
+        border: 1px solid #FFFFFF;
+    }
+
+    .main__console-title {
+        color: var(--primary-text-color);
+    }
 }
 
 @media (max-width: 992px) {
